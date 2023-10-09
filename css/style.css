@@ -1,0 +1,883 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "CaveatB";
+  src: url("../fonts/Caveat-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaveatR";
+  src: url("../fonts/Caveat-Regular.ttf");
+  font-display: swap;
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MerriweatherB";
+  src: url("../fonts/Merriweather-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PacificoR";
+  src: url("../fonts/Pacifico-Regular.ttf");
+  font-display: swap;
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EBGaramondEB";
+  src: url("../fonts/EBGaramond-ExtraBoldItalic.ttf");
+  font-display: swap;
+  font-weight: ExtraBold Italic;
+}
+
+@font-face {
+  font-family: "EBGaramondSB";
+  src: url("../fonts/EBGaramond-SemiBoldItalic.ttf");
+  font-display: swap;
+  font-weight: SemiBold Italic;
+}
+
+@font-face {
+  font-family: "InterB";
+  src: url("../fonts/Inter-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../Сайт с ресницами/src/sass/style.sass */
+.container-nav {
+  height: 120px;
+  z-index: 15;
+}
+
+/* line 58, ../Сайт с ресницами/src/sass/style.sass */
+.container {
+  position: relative;
+}
+
+/* line 61, ../Сайт с ресницами/src/sass/style.sass */
+.button-project {
+  width: 130px;
+  height: 50px;
+  left: 895px;
+  top: 26.15px;
+  background: #000000;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 73, ../Сайт с ресницами/src/sass/style.sass */
+.button-project_big {
+  width: 200px;
+  height: 76.92px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+/* line 81, ../Сайт с ресницами/src/sass/style.sass */
+.nav-button {
+  margin: 1.7rem;
+}
+
+/* line 84, ../Сайт с ресницами/src/sass/style.sass */
+.navbar-brand {
+  margin: 0px;
+}
+
+/* line 87, ../Сайт с ресницами/src/sass/style.sass */
+.nav-iten-ikons {
+  display: flex;
+  align-items: center;
+}
+
+/* line 90, ../Сайт с ресницами/src/sass/style.sass */
+.navbar-collapse {
+  width: 40%;
+}
+
+/* line 92, ../Сайт с ресницами/src/sass/style.sass */
+.nav-ikons {
+  margin: 3px;
+}
+
+/* line 95, ../Сайт с ресницами/src/sass/style.sass */
+.navbar-titles {
+  font-size: 18px;
+  font-family: "InterB";
+  font-weight: bold;
+}
+
+/* line 99, ../Сайт с ресницами/src/sass/style.sass */
+.nav-item_margin {
+  margin-left: 1.5rem;
+}
+
+/* line 102, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle {
+  position: absolute;
+  top: 120px;
+  left: -50px;
+  width: 130%;
+  height: 450px;
+  background: #E8D3D3;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+/* line 112, ../Сайт с ресницами/src/sass/style.sass */
+.section-one {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 115, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__img {
+  width: 600px;
+  height: 553px;
+  border: 9px solid #FFFFFF;
+  background: url(../img/Девушка_верх.jpg);
+  background-size: 800px;
+  background-position: top 0px left -130px;
+}
+
+/* line 122, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__img-second {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  width: 260px;
+  height: 260px;
+  background: url(../img/Иструменты.png);
+  background-size: 300px;
+  background-position: top 0px left -60px;
+  border: 9px solid #FFFFFF;
+  border-radius: 129px;
+  z-index: 5;
+}
+
+/* line 134, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__base {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 85px;
+}
+
+/* line 138, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  width: 45%;
+}
+
+/* line 146, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__title h1 {
+  font-family: "PacificoR";
+  font-weight: regular;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* line 152, ../Сайт с ресницами/src/sass/style.sass */
+.section-one__text {
+  width: 1040px;
+  height: 170px;
+  font-size: 65px;
+  font-family: "CaveatB";
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 160, ../Сайт с ресницами/src/sass/style.sass */
+.section-text {
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 166, ../Сайт с ресницами/src/sass/style.sass */
+.section-second {
+  min-height: 700px;
+  background-color: #ECE9E9;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* line 171, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__tag {
+  position: absolute;
+  top: -150px;
+}
+
+/* line 174, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__tag img {
+  width: 300px;
+}
+
+/* line 176, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__services {
+  text-align: center;
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* line 181, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__box-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+/* line 185, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__img-two {
+  width: 200px;
+  margin: 15px auto;
+}
+
+/* line 189, ../Сайт с ресницами/src/sass/style.sass */
+.section-second__img-center {
+  width: 250px;
+  margin: -10px auto;
+}
+
+/* line 192, ../Сайт с ресницами/src/sass/style.sass */
+.card {
+  width: 360px;
+  height: 470px;
+  background: #E8D3D3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 30px 0px 0px;
+  text-align: center;
+}
+
+/* line 199, ../Сайт с ресницами/src/sass/style.sass */
+.card h3 {
+  font-family: "EBGaramondEB";
+  font-size: 31px;
+}
+
+/* line 202, ../Сайт с ресницами/src/sass/style.sass */
+.card p {
+  font-family: "EBGaramondSB";
+  font-size: 25px;
+}
+
+/* line 206, ../Сайт с ресницами/src/sass/style.sass */
+.container-three {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+/* line 210, ../Сайт с ресницами/src/sass/style.sass */
+.container-three__about-me {
+  padding-top: 24px;
+  padding-right: 10px;
+}
+
+/* line 215, ../Сайт с ресницами/src/sass/style.sass */
+.container-three__description {
+  padding-top: 36px;
+  padding-left: 14px;
+}
+
+/* line 220, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-one {
+  position: relative;
+  width: 132px;
+  height: 512px;
+  background-color: #E8D3D3;
+}
+
+/* line 225, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-one h1 {
+  position: absolute;
+  top: 360px;
+  left: -90px;
+  font-family: "PacificoR";
+  font-weight: regular;
+  font-size: 70px;
+  transform: rotate(-90deg);
+}
+
+/* line 233, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-one h2 {
+  position: absolute;
+  top: 170px;
+  left: -130px;
+  font-family: "CaveatR";
+  font-weight: regular;
+  font-size: 70px;
+  transform: rotate(-90deg);
+  width: 476px;
+}
+
+/* line 242, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-one img {
+  position: absolute;
+  top: 45px;
+  left: -90px;
+}
+
+/* line 248, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-two {
+  position: relative;
+  width: 424px;
+  height: 554px;
+  background-color: #E8D3D3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* line 257, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-two img {
+  width: 400px;
+  height: 533.33px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 150px 30px 30px 30px;
+}
+
+/* line 264, ../Сайт с ресницами/src/sass/style.sass */
+.puncture {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: inset 4px -4px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* line 275, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-three {
+  width: 420px;
+  height: 486px;
+  background-color: #E8D3D3;
+  border-radius: 0px 50px 50px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* line 282, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-three__text {
+  width: 358px;
+  height: 308px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+/* line 287, ../Сайт с ресницами/src/sass/style.sass */
+.rectangle-three__text p {
+  font-family: "PacificoR";
+  font-weight: regular;
+  font-size: 25px;
+}
+
+/* line 292, ../Сайт с ресницами/src/sass/style.sass */
+.button-about-me {
+  font-family: "MerriweatherB";
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 4px;
+}
+
+/* line 298, ../Сайт с ресницами/src/sass/style.sass */
+.footer {
+  background-color: #D9D9D9;
+}
+
+/* line 300, ../Сайт с ресницами/src/sass/style.sass */
+.footer h1 {
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* line 304, ../Сайт с ресницами/src/sass/style.sass */
+.footer p {
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 309, ../Сайт с ресницами/src/sass/style.sass */
+.box-logo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* line 312, ../Сайт с ресницами/src/sass/style.sass */
+.footer-container {
+  height: 480px;
+}
+
+/* line 315, ../Сайт с ресницами/src/sass/style.sass */
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 318, ../Сайт с ресницами/src/sass/style.sass */
+.footer-content__contacts {
+  width: 290px;
+}
+
+/* line 320, ../Сайт с ресницами/src/sass/style.sass */
+.footer-content__mode {
+  width: 300px;
+  padding-left: 20px;
+}
+
+/* line 323, ../Сайт с ресницами/src/sass/style.sass */
+.footer-content__mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  padding-left: 80px;
+}
+
+/* line 331, ../Сайт с ресницами/src/sass/style.sass */
+.email-input {
+  display: flex;
+  align-items: center;
+}
+
+/* line 335, ../Сайт с ресницами/src/sass/style.sass */
+.form-control {
+  width: 300px;
+  height: 55px;
+  background: #E8D3D3;
+  border: 3px solid rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 5;
+}
+
+/* line 347, ../Сайт с ресницами/src/sass/style.sass */
+.text-mail {
+  width: 300px;
+  height: 70px;
+}
+
+/* line 350, ../Сайт с ресницами/src/sass/style.sass */
+.footer-icon {
+  display: flex;
+  width: 40px;
+  justify-content: center;
+}
+
+/* line 354, ../Сайт с ресницами/src/sass/style.sass */
+.btn-footer {
+  width: 160px;
+  height: 55px;
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* line 361, ../Сайт с ресницами/src/sass/style.sass */
+.icon-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 300px;
+}
+
+/* line 366, ../Сайт с ресницами/src/sass/style.sass */
+.box-icons-footer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/* line 373, ../Сайт с ресницами/src/sass/style.sass */
+.three-and-four-items {
+  margin-left: 20px;
+}
+
+/* line 375, ../Сайт с ресницами/src/sass/style.sass */
+.two-items {
+  margin-left: 12px;
+}
+
+/* line 378, ../Сайт с ресницами/src/sass/style.sass */
+.modal-content {
+  background-color: #E8D3D3;
+}
+
+/* line 380, ../Сайт с ресницами/src/sass/style.sass */
+.modal-content h5 {
+  font-family: "CaveatB";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* line 385, ../Сайт с ресницами/src/sass/style.sass */
+.form-select {
+  width: 380px;
+  height: 55px;
+  background: #E8D3D3;
+  border: 3px solid rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: gray;
+  border-radius: 10px;
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 30px;
+  z-index: 5;
+}
+
+/* line 399, ../Сайт с ресницами/src/sass/style.sass */
+.col-form-label {
+  width: 300px;
+  font-family: "CaveatB";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 404, ../Сайт с ресницами/src/sass/style.sass */
+.text-modal {
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+  /* line 410, ../Сайт с ресницами/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 412, ../Сайт с ресницами/src/sass/style.sass */
+  .navbar-none {
+    display: none;
+  }
+  /* line 415, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title {
+    padding-top: 100px;
+  }
+  /* line 417, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title h1 {
+    font-size: 50px;
+  }
+  /* line 419, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second {
+    min-height: 750px;
+  }
+  /* line 421, ../Сайт с ресницами/src/sass/style.sass */
+  .card {
+    width: 315px;
+    height: 520px;
+  }
+  /* line 424, ../Сайт с ресницами/src/sass/style.sass */
+  .footer-content__mode {
+    width: 370px;
+    padding-left: 80px;
+  }
+  /* line 427, ../Сайт с ресницами/src/sass/style.sass */
+  .footer-content__mail {
+    display: none;
+  }
+  /* line 429, ../Сайт с ресницами/src/sass/style.sass */
+  .icon-footer {
+    bottom: -36px;
+    right: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 435, ../Сайт с ресницами/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 437, ../Сайт с ресницами/src/sass/style.sass */
+  .container-three {
+    height: 580px;
+  }
+  /* line 439, ../Сайт с ресницами/src/sass/style.sass */
+  .navbar-none {
+    display: contents;
+  }
+  /* line 442, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title {
+    position: absolute;
+    top: -90px;
+    left: 195px;
+    z-index: 99;
+  }
+  /* line 447, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title h1 {
+    display: none;
+  }
+  /* line 449, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__text {
+    font-size: 45px;
+  }
+  /* line 451, ../Сайт с ресницами/src/sass/style.sass */
+  .button-project-two {
+    border-radius: 30px 30px 0px 0px;
+    background: #E8D3D3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "PacificoR";
+    font-weight: regular;
+    font-size: 30px;
+    color: black;
+    border-color: #D9D9D9;
+  }
+  /* line 460, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__box-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 464, ../Сайт с ресницами/src/sass/style.sass */
+  .card {
+    margin: 15px;
+    width: 450px;
+    height: 430px;
+  }
+  /* line 468, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-one {
+    display: none;
+  }
+  /* line 470, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-two {
+    width: 370px;
+    height: 500px;
+  }
+  /* line 473, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-two img {
+    width: 350px;
+    height: 480px;
+  }
+  /* line 476, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three {
+    width: 360px;
+    height: 430px;
+  }
+  /* line 479, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three__text {
+    width: 310px;
+    height: 260px;
+  }
+  /* line 482, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three__text p {
+    font-size: 22px;
+  }
+  /* line 484, ../Сайт с ресницами/src/sass/style.sass */
+  .icon-footer {
+    bottom: -37px;
+    right: -25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 489, ../Сайт с ресницами/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 492, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__img {
+    height: 360px;
+    background-size: 670px;
+  }
+  /* line 495, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__text {
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  /* line 499, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title {
+    left: 160px;
+  }
+  /* line 501, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__img-second {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 35%;
+  }
+  /* line 506, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle {
+    height: 300px;
+  }
+  /* line 508, ../Сайт с ресницами/src/sass/style.sass */
+  .section-text {
+    padding-top: 115px;
+  }
+  /* line 510, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__tag {
+    top: -100px;
+    left: -30px;
+  }
+  /* line 513, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__tag img {
+    width: 260px;
+  }
+  /* line 515, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-two {
+    border-radius: 100%;
+  }
+  /* line 517, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-two img {
+    border-radius: 100%;
+  }
+  /* line 519, ../Сайт с ресницами/src/sass/style.sass */
+  .puncture {
+    display: none;
+  }
+  /* line 521, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three {
+    position: absolute;
+    padding-top: 10px;
+    border-radius: 30px;
+    top: 340px;
+    left: -20px;
+    height: 220px;
+  }
+  /* line 528, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three__text {
+    height: 120px;
+  }
+  /* line 530, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three__text p {
+    font-size: 15px;
+  }
+  /* line 533, ../Сайт с ресницами/src/sass/style.sass */
+  .footer p {
+    font-size: 16px;
+  }
+  /* line 535, ../Сайт с ресницами/src/sass/style.sass */
+  .icon-footer {
+    top: -230px;
+  }
+  /* line 537, ../Сайт с ресницами/src/sass/style.sass */
+  .footer-content__mode {
+    padding-left: 20px;
+  }
+  /* line 539, ../Сайт с ресницами/src/sass/style.sass */
+  .box-icons-footer {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 543, ../Сайт с ресницами/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 546, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__title {
+    left: 110px;
+  }
+  /* line 548, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__img {
+    background-position: top 0px left -190px;
+  }
+  /* line 550, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__img-second {
+    left: 23%;
+  }
+  /* line 552, ../Сайт с ресницами/src/sass/style.sass */
+  .section-one__text {
+    font-size: 26px;
+  }
+  /* line 554, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second {
+    padding-top: 30px;
+  }
+  /* line 556, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__tag {
+    top: -50px;
+  }
+  /* line 558, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__tag img {
+    width: 160px;
+  }
+  /* line 560, ../Сайт с ресницами/src/sass/style.sass */
+  .section-second__box-card {
+    padding-top: 0px;
+  }
+  /* line 562, ../Сайт с ресницами/src/sass/style.sass */
+  .card {
+    height: 470px;
+  }
+  /* line 564, ../Сайт с ресницами/src/sass/style.sass */
+  .icon-footer {
+    display: none;
+  }
+  /* line 566, ../Сайт с ресницами/src/sass/style.sass */
+  .rectangle-three {
+    left: 8px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  /* line 570, ../Сайт с ресницами/src/sass/style.sass */
+  .container-three__description {
+    padding: 0px;
+  }
+  /* line 572, ../Сайт с ресницами/src/sass/style.sass */
+  .container-three__about-me {
+    padding: 0px;
+  }
+  /* line 574, ../Сайт с ресницами/src/sass/style.sass */
+  .container-three {
+    margin-bottom: 40px;
+  }
+  /* line 576, ../Сайт с ресницами/src/sass/style.sass */
+  .form-select {
+    width: 300px;
+    font-size: 12px;
+  }
+  /* line 579, ../Сайт с ресницами/src/sass/style.sass */
+  .footer-content__contacts {
+    width: 180px;
+  }
+  /* line 582, ../Сайт с ресницами/src/sass/style.sass */
+  .footer h1 {
+    font-size: 20px;
+  }
+  /* line 584, ../Сайт с ресницами/src/sass/style.sass */
+  .footer p {
+    font-size: 12px;
+  }
+  /* line 586, ../Сайт с ресницами/src/sass/style.sass */
+  .footer-container {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

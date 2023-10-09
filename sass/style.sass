@@ -1,0 +1,587 @@
+@font-face 
+    
+    font-family: "CaveatB"
+    src: url('../fonts/Caveat-Bold.ttf')
+    font-display: swap
+    font-weight: bold
+    font-style: normal
+@font-face 
+    
+    font-family: "CaveatR"
+    src: url('../fonts/Caveat-Regular.ttf')
+    font-display: swap
+    font-weight: regular
+    font-style: normal
+@font-face 
+    
+    font-family: "MerriweatherB"
+    src: url('../fonts/Merriweather-Bold.ttf')
+    font-display: swap
+    font-weight: bold
+    font-style: normal
+@font-face 
+    
+    font-family: "PacificoR"
+    src: url('../fonts/Pacifico-Regular.ttf')
+    font-display: swap
+    font-weight: regular
+    font-style: normal
+
+@font-face 
+    
+    font-family: "EBGaramondEB"
+    src: url('../fonts/EBGaramond-ExtraBoldItalic.ttf')
+    font-display: swap
+    font-weight: ExtraBold Italic
+@font-face 
+    
+    font-family: "EBGaramondSB"
+    src: url('../fonts/EBGaramond-SemiBoldItalic.ttf')
+    font-display: swap
+    font-weight: SemiBold Italic
+@font-face 
+    
+    font-family: "InterB"
+    src: url('../fonts/Inter-Bold.ttf')
+    font-display: swap
+    font-weight: bold
+    font-style: normal      
+
+$color-pink: #E8D3D3
+$color-white-pink: #ECE9E9  
+$color-violet: #D9D9D9  
+
+
+.container-nav
+    height: 120px
+    z-index: 15
+.container
+    position: relative
+
+.button-project
+    width: 130px
+    height: 50px
+    left: 895px
+    top: 26.15px
+    background: #000000
+    border: 1px solid #000000
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25)
+    border-radius: 29px
+    text-align: center
+    font-size: 16px
+    line-height: 18px
+    &_big
+        width: 200px
+        height: 76.92px
+        border: 1px solid #000000
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25)
+        border-radius: 29px
+        font-size: 22px
+        line-height: 27px
+.nav-button
+    margin: 1.7rem
+
+.navbar-brand
+    margin: 0px
+
+.nav-iten-ikons
+    display: flex
+    align-items: center
+.navbar-collapse
+    width: 40%
+.nav-ikons
+    margin: 3px
+    
+.navbar-titles
+    font-size: 18px
+    font-family: "InterB"
+    font-weight: bold
+.nav-item_margin
+    margin-left: 1.5rem
+
+.rectangle
+    position: absolute
+    top: 120px
+    left: -50px
+    width: 130%
+    height: 450px
+    background: $color-pink
+    transform: rotate(-10deg)
+    z-index: -1
+
+.section-one
+    position: relative
+    overflow: hidden
+    &__img
+        width: 600px
+        height: 553px
+        border: 9px solid #FFFFFF
+        background: url(../img/Девушка_верх.jpg)
+        background-size: 800px
+        background-position: top 0px left -130px
+    &__img-second
+        position: absolute
+        top: 50%
+        left: auto
+        width: 260px
+        height: 260px
+        background: url(../img/Иструменты.png)
+        background-size: 300px
+        background-position: top 0px left -60px
+        border: 9px solid #FFFFFF
+        border-radius: 129px
+        z-index: 5
+    &__base
+        display: flex
+        justify-content: space-evenly
+        padding-top: 85px
+    &__title
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        padding-top: 60px
+        
+        width: 45%
+        h1
+            font-family: "PacificoR"
+            font-weight: regular
+            font-size: 70px
+            text-align: center
+            margin-bottom: 60px
+    &__text
+        width: 1040px
+        height: 170px 
+        font-size: 65px
+        font-family: "CaveatB"
+        font-weight: bold
+        margin-bottom: 20px
+
+.section-text
+    display: flex
+    padding-top: 70px
+    justify-content: center
+    text-align: center
+
+.section-second
+    min-height: 700px
+    background-color: $color-white-pink
+    padding-top: 80px
+    margin-bottom: 80px
+    &__tag
+        position: absolute
+        top: -150px
+        img
+            width: 300px
+    &__services
+        text-align: center
+        font-family: "InterB"
+        font-weight: bold
+        font-size: 40px
+    &__box-card
+        display: flex
+        justify-content: space-evenly
+        padding-top: 30px
+    &__img-two
+        width: 200px
+        margin: 15px auto
+
+    &__img-center
+        width: 250px
+        margin: -10px auto
+.card
+    width: 360px
+    height: 470px
+    background: $color-pink
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 30px 30px 0px 0px
+    text-align: center
+    h3
+        font-family: "EBGaramondEB"
+        font-size: 31px
+    p
+        font-family: "EBGaramondSB"
+        font-size: 25px
+
+.container-three
+    display: flex
+    justify-content: center
+    height: 700px
+    &__about-me
+        padding-top: 24px
+        padding-right: 10px
+    &__my-photo
+    
+    &__description
+        padding-top: 36px
+        padding-left: 14px
+    
+
+.rectangle-one
+        position: relative
+        width: 132px
+        height: 512px
+        background-color: $color-pink
+        h1
+            position: absolute
+            top: 360px
+            left: -90px
+            font-family: "PacificoR"
+            font-weight: regular
+            font-size: 70px
+            transform: rotate(-90deg)
+        h2
+            position: absolute
+            top: 170px
+            left: -130px
+            font-family: "CaveatR"
+            font-weight: regular
+            font-size: 70px
+            transform: rotate(-90deg)
+            width: 476px
+        img
+            position: absolute
+            top: 45px
+            left: -90px
+
+
+.rectangle-two
+        position: relative
+        width: 424px
+        height: 554px
+        background-color: $color-pink
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 30px
+        text-align: center
+        padding-top: 10px
+        img
+            width: 400px
+            height: 533.33px
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25)
+            backdrop-filter: blur(2px)
+            border-radius: 150px 30px 30px 30px
+
+.puncture
+    position: absolute
+    top: 20px
+    left: 20px
+    width: 22px
+    height: 22px
+    border-radius: 100%
+    background: #FFFFFF
+    border: 1px solid rgba(0, 0, 0, 0.3)
+    box-shadow: inset 4px -4px 3px rgba(0, 0, 0, 0.25)
+
+.rectangle-three
+        width: 420px
+        height: 486px
+        background-color: $color-pink
+        border-radius: 0px 50px 50px 0px
+        padding-top: 50px
+        text-align: center
+        &__text
+            width: 358px
+            height: 308px
+            text-align: center
+            margin-left: 30px
+            p
+                font-family: "PacificoR"
+                font-weight: regular
+                font-size: 25px
+
+.button-about-me
+    font-family: "MerriweatherB"
+    font-weight: bold
+    font-size: 28px
+    padding-top: 4px
+
+.footer
+    background-color: $color-violet
+    h1
+        font-family: "InterB"
+        font-weight: bold
+        font-size: 28px
+    p
+        font-family: "InterB"
+        font-weight: bold
+        font-size: 20px
+    
+.box-logo
+    text-align: center
+    padding-bottom: 20px
+.footer-container
+    height: 480px
+
+.footer-content
+    display: flex
+    justify-content: center
+    &__contacts
+        width: 290px
+    &__mode
+        width: 300px
+        padding-left: 20px
+    &__mail
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        width: 500px
+        padding-left: 80px
+
+.email-input 
+    display: flex
+    align-items: center  
+
+.form-control 
+    width: 300px
+    height: 55px
+    background: $color-pink
+    border: 3px solid rgba(0, 0, 0, 0.43)
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 10px 
+    font-family: "InterB"
+    font-weight: bold
+    font-size: 16px
+    z-index: 5
+
+.text-mail
+    width: 300px
+    height: 70px
+.footer-icon
+    display: flex
+    width: 40px
+    justify-content: center
+.btn-footer
+    width: 160px
+    height: 55px
+    font-family: "InterB"
+    font-weight: bold
+    font-size: 22px
+
+.icon-footer
+    position: absolute
+    bottom: 10px
+    right: 300px
+
+.box-icons-footer
+    list-style-type: none
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 10px
+
+.three-and-four-items
+    margin-left: 20px
+.two-items
+    margin-left: 12px
+
+.modal-content
+    background-color: $color-pink
+    h5
+        font-family: "CaveatB"
+        font-weight: bold
+        font-size: 30px
+
+.form-select
+    width: 380px
+    height: 55px
+    background: $color-pink
+    border: 3px solid rgba(0, 0, 0, 0.43)
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    color: gray
+    border-radius: 10px 
+    font-family: "InterB"
+    font-weight: bold
+    font-size: 16px
+    margin-bottom: 30px
+    z-index: 5
+
+.col-form-label
+    width: 300px
+    font-family: "CaveatB"
+    font-weight: bold
+    font-size: 25px
+.text-modal
+    font-family: "InterB"
+    font-weight: bold
+    font-size: 16px
+
+@media (max-width:1199px)
+    .container
+        width: 960px
+    .navbar-none
+        display: none
+    .section-one
+        &__title
+            padding-top: 100px
+            h1
+                font-size: 50px
+    .section-second
+        min-height: 750px
+    .card
+        width: 315px
+        height: 520px
+    .footer-content__mode
+        width: 370px
+        padding-left: 80px
+    .footer-content__mail
+        display: none
+    .icon-footer
+        bottom: -36px
+        right: 25px
+    
+
+@media (max-width:991px)
+    .container
+        width: 720px
+    .container-three
+        height: 580px
+    .navbar-none
+        display: contents
+    .section-one
+        &__title
+            position: absolute
+            top: -90px
+            left: 195px
+            z-index: 99
+            h1
+                display: none
+        &__text
+            font-size: 45px
+    .button-project-two
+        border-radius: 30px 30px 0px 0px
+        background: $color-pink
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        font-family: "PacificoR"
+        font-weight: regular
+        font-size: 30px
+        color: black
+        border-color: $color-violet
+    .section-second__box-card
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
+    .card
+        margin: 15px
+        width: 450px
+        height: 430px
+    .rectangle-one
+        display: none
+    .rectangle-two
+        width: 370px
+        height: 500px
+        img
+            width: 350px
+            height: 480px
+    .rectangle-three
+        width: 360px
+        height: 430px
+        &__text
+            width: 310px
+            height: 260px
+            p
+                font-size: 22px
+    .icon-footer
+        bottom: -37px
+        right: -25px
+
+@media (max-width:767px)
+    .container
+        width: 540px
+    .section-one
+        &__img
+            height: 360px
+            background-size: 670px
+        &__text
+            font-size: 33px
+            text-align: center
+            margin-bottom: 0px
+        &__title
+            left: 160px
+        &__img-second
+            width: 200px
+            height: 200px
+            top: 50%
+            left: 35%
+    .rectangle
+        height: 300px
+    .section-text
+        padding-top: 115px
+    .section-second__tag
+        top: -100px
+        left: -30px
+        img
+            width: 260px
+    .rectangle-two
+        border-radius: 100%
+        img
+            border-radius: 100%
+    .puncture
+        display: none
+    .rectangle-three
+        position: absolute
+        padding-top: 10px
+        border-radius: 30px
+        top: 340px
+        left: -20px
+        height: 220px
+        &__text
+            height: 120px
+            p
+                font-size: 15px
+    .footer
+        p
+            font-size: 16px
+    .icon-footer
+        top: -230px
+    .footer-content__mode
+        padding-left: 20px
+    .box-icons-footer
+        padding-left: 0px
+
+@media (max-width:575px)
+    .container
+        width: 100%
+    .section-one
+        &__title
+            left: 110px
+        &__img
+            background-position: top 0px left -190px
+        &__img-second
+            left: 23%
+        &__text
+            font-size: 26px
+    .section-second
+        padding-top: 30px
+    .section-second__tag 
+        top: -50px
+        img
+            width: 160px
+    .section-second__box-card
+        padding-top: 0px
+    .card
+        height: 470px
+    .icon-footer
+        display: none
+    .rectangle-three
+        left: 8px
+        border-radius: 30px
+        margin-top: 30px
+    .container-three__description
+        padding: 0px
+    .container-three__about-me
+        padding: 0px
+    .container-three
+        margin-bottom: 40px
+    .form-select
+        width: 300px
+        font-size: 12px
+    .footer-content__contacts
+        width: 180px
+    .footer
+        h1
+            font-size: 20px
+        p
+            font-size: 12px
+    .footer-container
+        height: 400px
